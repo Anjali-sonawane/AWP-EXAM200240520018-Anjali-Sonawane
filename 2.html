@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>input form</title>
+    <script src="2.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-sm-6  d-flex justify-content-center align-items-center  rounded" 
+                style="height: 600px; margin: 1px; background-color:rgb(197, 115, 115);">
+                
+
+            <form> 
+            <div class="form-group">
+            
+            <label for="USERNAME" style="font-weight: bold;">
+                USERNAME : </label>
+            <input class="form-control" type="text" name="USERNAME" id="U1" placeholder="ENTER USERNAME" 
+            required pattern="[A-Za-z0-9@_]+$"/><br>
+            
+            <label for="PASSWORD" style="font-weight: bold;">PASSWORD : </label>
+            <input type="password" class="form-control" name="PASSWORD" id="p1" placeholder="ENTER PASSWORD"/><br>
+            
+            
+            <label for="EMAIL-ID" style="font-weight: bold;">EMAIL-ID : </label>
+            <input type="email" class="form-control" name="EMAIL-ID" id="E1" placeholder="ENTER EMAILID" /><br>
+
+            
+            <button onclick="submit()" type="button" class="btn btn-dark" id="b1">SUBMIT</button>
+            
+            </div>
+            </form>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+  </html>
